@@ -25,7 +25,7 @@ const SplashScreen = ({ title }) => {
     // // Navigate to
     window.setTimeout(() => {
       if (JSON.parse(loaderData.isTourSeen)) navigate('/home')
-      else navigate('/tour')
+      else navigate('/home')
     }, 1500)
   }, [])
 
